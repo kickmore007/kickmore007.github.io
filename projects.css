@@ -1,0 +1,79 @@
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../gamer\ wallpaper.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+}
+
+li{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    font-family: Fjalla One;
+    font-size: 35px;
+    text-align: center;
+}
+
+a{
+    text-decoration: underline;
+    color: white;
+}
+
+a:visited{
+    text-decoration: underline;
+    color: white;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.4s ease;
+}
+ul li a:hover{
+    background-color: white;
+    color: #000;
+}
+
+ul li.active a{
+    background-color: white;
+    color: #000;
+}
+
+h1{
+    font-family: Fjalla One;
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    margin-left: 420px;
+}
+
+h2{
+    font-family: Fjalla One;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+.box {
+    width: 500px;
+    padding: 10px;
+    border: 5px #fff;
+    margin: 0;
+    background-color: #0008;
+    margin-left: auto;
+    margin-right: auto;
+}
