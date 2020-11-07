@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
 header{
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("gamer\ wallpaper.png");
     height: 100vh;
@@ -10,7 +16,6 @@ li{
     text-decoration: none;
     list-style-type: none;
     color: white;
-    font-family: Fjalla One;
     font-size: 35px;
     text-align: center;
 }
@@ -28,7 +33,6 @@ a:visited{
 ul{
     float: right;
     list-style-type: none;
-    margin-top: 10px;
     margin-right: 5px;
 }
 
@@ -54,15 +58,13 @@ ul li.active a{
 }
 
 h1{
-    font-family: Fjalla One;
     color: white;
     text-align: center;
     font-size: 80px;
-    margin-left: 420px;
+    margin-left: 440px;
 }
 
 h2{
-    font-family: Fjalla One;
     color: white;
     text-align: center;
     font-size: 50px;

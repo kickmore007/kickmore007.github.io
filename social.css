@@ -1,3 +1,11 @@
+*{
+    font-family: Arial;
+    padding: 0;
+    margin: 0;
+}
+
+
+
 header{
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("gamer\ wallpaper.png");
     height: 100vh;
@@ -16,12 +24,12 @@ li{
 }
 
 a{
-    text-decoration: none;
+    text-decoration: underline;
     color: white;
 }
 
 a:visited{
-    text-decoration: none;
+    text-decoration: underline;
     color: white;
 }
 
