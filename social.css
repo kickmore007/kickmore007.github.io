@@ -66,13 +66,10 @@ div {
     width: 500px;
     padding: 10px;
     border: 5px solid #fff;
-    margin: 0;
+    margin: auto;
     background-color: #0008;
-    margin-left: auto;
-    margin-right: auto;
     position: absolute;
     top: 40%;
-    left: 40%;
     transition: translate(-50%,-50%);
   }
 
