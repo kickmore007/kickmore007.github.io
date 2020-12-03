@@ -25,6 +25,7 @@ li{
     font-family: Fjalla One;
     font-size: 35px;
     text-align: center;
+    margin-top: 25px;
 }
 
 a{
@@ -40,8 +41,8 @@ a:visited{
 ul{
     float: right;
     list-style-type: none;
-    margin-top: 20px;
     margin-right: 5px;
+    width: 100%;
 }
 
 ul li{
@@ -66,18 +67,88 @@ ul li.active a{
 }
 
 
-div {
-    width: 500px;
-    padding: 10px;
-    border: 5px solid #fff;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #0008;
-    position: absolute;
-    top: 40%;
-    transition: translate(-50%,-50%);
-  }
+h1 {
+    color: white;
+    margin-left: 15px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.paragraph {
+    width: 100px;
+    margin: auto;
+
+}
+
+p {
+    color: white;
+    margin-left: 15px;
+    font-size: 20px;
+    text-align: center;
+}
 
 header div h5{
     font-size: 50px;
 }
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+
+  }
+  
+  .social{
+    position: fixed;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transform: translate(-290px, 0);
+  }
+  
+  .social a{
+    color: #fff;
+    background: rgba(0, 0, 0, 0.4);
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    display: block;
+    margin: 5px;
+    padding: 20px;
+    width: 300px;
+    text-align: right;
+    border-radius: 50px;
+    transition: 1s;
+    transition-property: transform;
+  }
+  
+  .social a:hover{
+    transform: translate(140px, 0);
+  }
+  
+  .social i{
+    margin-left: 10px;
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+  }
+  
+  .social a:nth-child(1) i{
+    color: #ad1df0;
+  }
+  
+  .social a:nth-child(2) i{
+    color: #F80000;
+  }
+  
+  .social a:nth-child(3) i{
+    color: transparent;
+    background-image: linear-gradient(45deg, #FFDF9E, #E56969, #8A49A1);
+    -webkit-background-clip: text;
+    font-weight: 600;
+  }
+  
+  .social a:nth-child(4) i{
+    color: #4ECCE8;
+  }
