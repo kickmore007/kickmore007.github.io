@@ -42,7 +42,7 @@ ul{
     float: right;
     list-style-type: none;
     margin-right: 5px;
-    margin-top: 20px;
+    width: 100%;
 }
 
 ul li{
