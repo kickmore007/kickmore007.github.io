@@ -1,22 +1,110 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>sa9</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Sebastian Ari</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='currentColor'><path fill-rule='evenodd' d='M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25Zm-2.625 6c-.54 0-.828.419-.936.634a1.96 1.96 0 0 0-.189.866c0 .298.059.605.189.866.108.215.395.634.936.634.54 0 .828-.419.936-.634.13-.26.189-.568.189-.866 0-.298-.059-.605-.189-.866-.108-.215-.395-.634-.936-.634Zm4.314.634c.108-.215.395-.634.936-.634.54 0 .828.419.936.634.13.26.189.568.189.866 0 .298-.059.605-.189.866-.108.215-.395.634-.936.634-.54 0-.828-.419-.936-.634a1.96 1.96 0 0 1-.189-.866c0-.298.059-.605.189-.866Zm2.023 6.828a.75.75 0 1 0-1.06-1.06 3.75 3.75 0 0 1-5.304 0 .75.75 0 0 0-1.06 1.06 5.25 5.25 0 0 0 7.424 0Z' clip-rule='evenodd'/></svg>" type="image/svg+xml">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'helvetica': ['Helvetica', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style>
+        @font-face {
+            font-family: 'Helvetica';
+            src: url('Helvetica.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'Helvetica';
+            src: url('Helvetica-Bold.ttf') format('truetype');
+            font-weight: bold;
+            font-style: normal;
+        }
+        body {
+            font-family: 'Helvetica', sans-serif;
+        }
+    </style>
 </head>
-<body>
-    <div class="text-center">
-        <h1 class="text-5xl p-20">sa9</h1>
+<body class="font-helvetica">
+    <div class="p-14">
+        <h1 class="font-bold text-[10em]">Sebastian Ari</h1>
+        <div class="flex">
+            <p class="mr-2 p-1 px-3 rounded-2xl bg-black text-white">#fastlearner</p>
+            <p class="mr-2 p-1 px-3 rounded-2xl bg-black text-white">#stilljustlearning</p>
 
-        <a class="block hover:scale-150 transition-all duration-100" href="https://www.sa9.xyz/lofi/">
-            lofi
-        </a>
-        <a class="block hover:scale-150 transition-all duration-100" href="https://www.sa9.xyz/examhelper/">
-            exam helper
-        </a>
+        </div>
+
+        <p class="mt-10">
+            Hello! I'm Seb and recently I've been trying to figure out where and how I can use my creative energy for something meaningful. So I thought making this portfolio would be a fun way to show some of my projects and also practice some web design. (Although there isn't much happening here...)
+        </p>
+
+        <p class="mt-96 text-right">
+            I've always enjoyed design in Photoshop, from making thumbnails for terrible gaming montages to just messing around for school/personal projects. 
+        </p>
+        <p class="mt-40">some progression:</p>
+
+        <div class="mt-10 flex ">
+            <div class="relative"></div>
+                <div class="cursor-pointer" onclick="document.getElementById('modal1').classList.remove('hidden')">
+                    <p class="">2020</p>
+                    <img src="img/RL.jpg" class="hover:opacity-80 transition-opacity duration-1000">
+                </div>
+                
+                <div class="mt-20 px-1 cursor-pointer" onclick="document.getElementById('modal2').classList.remove('hidden')">
+                    <p>2024</p>
+                    <img src="img/kobbie.png" class="hover:opacity-80 transition-opacity duration-1000">
+                </div>
+                
+                <div class="mt-[40em] cursor-pointer" onclick="document.getElementById('modal3').classList.remove('hidden')">
+                    <p>just then in like 30 mins</p>
+                    <img src="img/mbizzy.png" class="hover:opacity-80 transition-opacity duration-1000">
+                </div>
+
+                <!-- Modal 1 -->
+                <div id="modal1" class="flex hidden fixed inset-0 bg-black bg-opacity-50 z-50 items-center justify-center" onclick="this.classList.add('hidden')">
+                    <img src="img/RL.jpg" class="max-h-[90vh] max-w-[90vw]">
+                </div>
+
+                <!-- Modal 2 -->
+                <div id="modal2" class="flex hidden fixed inset-0 bg-black bg-opacity-50 z-50 items-center justify-center" onclick="this.classList.add('hidden')">
+                    <img src="img/kobbie.png" class="max-h-[90vh] max-w-[90vw]">
+                </div>
+
+                <!-- Modal 3 -->
+                <div id="modal3" class="flex hidden fixed inset-0 bg-black bg-opacity-50 z-50 items-center justify-center" onclick="this.classList.add('hidden')">
+                    <img src="img/mbizzy.png" class="max-h-[90vh] max-w-[90vw]">
+                </div>
+        </div>
+
+        <p class="mt-96 ">
+            But lately I've been obssessed with "motion graphics and visual storytelling"
+        </p>
+        <p class="mt-96 font-bold">. . .</p>
+        <p class="mt-96 ">
+            yeah no they're just <a href="https://www.tiktok.com/@xepta.fx" class="text-white underline bg-black" target="_blank" rel="noopener noreferrer">tiktok</a> edits (shameless promotion)
+        </p>
+        <p class="mt-10">but there you can see some of my progression, I recently switched from using Davinci Resolve to After Effects and I'm quickly learning the ropes. <br>
+        This is personally my favourite edit I've made so far:
+        </p>
+        <video src="img/edit.mp4" class="w-[40%] py-10" controls playsinline preload="metadata"></video>
+        <img src="img/vi.png" class="w-[70%]">
+
+         <p class="mt-96 ">
+            ..and finally, here's the website I created for my Major Work in Software Engineering (hover):
+        </p>
+        <video src="img/website tour-1.mp4" class="w-[60%] brightness-90 transition-all duration-1000 hover:brightness-100" muted loop playsinline onmouseover="this.play()" onmouseout="this.pause()"></video>
     </div>
+    
+
+    
 </body>
 </html>
